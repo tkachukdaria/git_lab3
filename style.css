@@ -1,0 +1,72 @@
+/* Зовнішні стилі для всіх сторінок */
+
+/* BODY */
+body {
+  background-color: #FFF8DC;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 20px;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+  color: #B22222;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+/* Посилання (зовнішній стиль) */
+a {
+  color: #0066CC !important;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Списки */
+ul, ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: decimal;
+}
+dl dt {
+  font-weight: bold;
+}
+dl dd {
+  margin-left: 1em;
+}
+
+/* Таблиці */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+th, td {
+  border: 1px solid #888;
+  padding: 0.5em;
+}
+th {
+  background-color: #EEE;
+  text-align: center;
+}
+td {
+  text-align: left;
+}
+
+/* Унікальні класи та ідентифікатори */
+#recipes ol, #recipes ul {
+  font-size: 0.95em;
+}
+#browser_stats th {
+  background-color: #FFE4B5;
+}
